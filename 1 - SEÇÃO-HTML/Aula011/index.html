@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais tabela</title>
+</head>
+<body>
+    <h2>Tabela de produtos</h2>
+    <!--Foi usado o "border" no próprio html somente para não precisar criar um arquivo css. -->
+    <table border="2" width="100%">
+        <tr>
+            <th>CÓDIGO</th>
+            <th>PRODUTO</th>
+            <th>PREÇO</th>
+        </tr>
+        <tr>
+            <td>007</td>
+            <td>Caderno</td>
+            <td>49,99</td>
+        </tr>
+        <tr>
+            <td>008</td>
+            <td>Lápis</td>
+            <td>10,00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">DESCONTO</td>
+            <td colspan="2">Cupom 1 -R$5</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cupom 2 -R$5</td>
+        </tr>
+        <tr>
+            <td><strong>TOTAL:</strong></td>
+            <td colspan="2">R$ 50,00 </td>
+        </tr>
+
+    </table>
+</body>
+</html>
