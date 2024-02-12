@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais formulários</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="processa.php">
+        <span>Login</span><br>
+        <input type="text" name="Login" id="" placeholder="Digite seu login"><br>
+        <span>Senha</span><br>
+        <input type="password" name="senha" id="" placeholder="Digite sua senha"><br>
+        <input type="button" value="Login"></input>
+    </form>
+
+    <h2>Cadastra-se</h2>
+    <form>
+        <span><strong>Sexo</strong></span><br>
+        <input type="radio" name="sexo" value="F"> Feminino<br>
+        <input type="radio" name="sexo" value="M"> Masculino<br>
+
+        <span><strong>Interesses</strong></span><br>
+        <input type="checkbox" name="Interesses"> Futebol<br>
+        <input type="checkbox" name="Interesses"> Vôlei<br>
+        <input type="checkbox" name="Interesses"> Basebol<br>
+
+        <span><strong>Estado</strong></span><br>
+
+        <select name="Estado" id="">
+            <option value="CE">CE</option>
+            <option value="RJ">RJ</option>
+            <option value="SP">SP</option>
+        </select><br>
+
+        <span><strong>Observações</strong></span><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Cadastrar">
+
+    </form>   
+</body>
+</html>
