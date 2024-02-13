@@ -1,0 +1,35 @@
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    margin-left: 510px;
+    color:black;
+}
+
+/*Propriedades da Main*/
+.texto1 {
+    width: 900px;
+    margin-left: 233px;
+}
+
+/*Propriedades do footer*/
+footer{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*IMAGENS*/
+.logo {
+    margin-left: 210px;
+}
+.capaimagem {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
