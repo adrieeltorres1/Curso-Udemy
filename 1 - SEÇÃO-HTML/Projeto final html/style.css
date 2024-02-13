@@ -5,13 +5,13 @@ header {
 }
 
 .links {
-    margin-left: 510px;
+    margin-left: 500px;
 }
 
 /*Propriedades da Main*/
 .texto1 {
     width: 900px;
-    margin-left: 233px;
+    margin-left: 300px;
 }
 
 /*Propriedades do footer*/
@@ -23,7 +23,7 @@ footer{
 
 /*IMAGENS*/
 .logo {
-    margin-left: 210px;
+    margin-left: 280px;
 }
 .capaimagem {
     padding: 20px;
