@@ -1,0 +1,41 @@
+main {
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.borda-azul {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(225, 255, 0);
+    color: blue;
+    border: 8px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borda-vermelha {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: red;
+    border: 8px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.borda-preta {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(225, 255, 0);
+    border: 8px solid black;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
