@@ -1,4 +1,4 @@
-.header{
+.header {
     background-color: #BDB76B;
     width: 900px;
     height: 60px;
@@ -12,5 +12,18 @@ a {
     text-decoration: none;
     font-weight: 300;
     font-style: normal;
-    color: white;
+    color: black;
+}
+.main {
+    background-color: #BDB76B;
+    width: 900px;
+    height: 200px;
+}
+
+body {
+    background-color: aliceblue;
+}
+.texto-sobre-ana {
+    margin: 10px;
+    font-family: "Roboto";  
 }
